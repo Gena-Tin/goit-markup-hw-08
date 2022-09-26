@@ -1,0 +1,87 @@
+/* ++++++++++++++++++++++++ */
+
+.social-links {
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+    color: var(--submain-font-color);
+      
+    &__link {
+          display: flex;
+          width: 44px;
+          height: 44px;
+          border-radius: 50%;
+          justify-content: center;
+          align-items: center;
+          transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+          background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          fill: var(--ico-color);
+          &:hover,
+          &:focus {
+                  fill: var(--contrast-text-color);
+                  background-color: var(--accent-color);
+                  }
+          }
+    &__item + &__item {
+          margin-left: 10px;
+          }
+    &--reverce {
+      color: var(--contrast-text-color);
+    }
+    &__link--reverce{
+      fill: var(--contrast-text-color);
+      background-color: var(--transparent-ico-color);
+    }
+    
+  }
+  
+  
+
+  /* соцсети футера----------- */
+  
+  
+
+
+    /* ++++++++++++++++++++++++ */
+// .social-links {
+//   display: flex;
+//   margin-top: 16px;
+//   justify-content: center;
+
+//   color: var(--submain-font-color);
+  
+// }
+
+// .social-links__link {
+//   display: flex;
+//   width: 44px;
+//   height: 44px;
+//   border-radius: 50%;
+//   justify-content: center;
+//   align-items: center;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+//     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+//   fill: var(--ico-color);
+//   }
+// .social-links__link:hover,
+// .social-links__link:focus {
+//   fill: var(--contrast-text-color);
+//   background-color: var(--accent-color);
+// }
+// .social-links__item + .social-links__item {
+//   margin-left: 10px;
+// }
+// /* соцсети футера----------- */
+// .footer-social-section {
+//   margin-left: 70px;
+// }
+
+// .social-links--reverce {
+//   color: var(--contrast-text-color);
+// }
+
+//   .social-links__link--reverce{
+//     fill: var(--contrast-text-color);
+//     background-color: var(--transparent-ico-color);
+//   }

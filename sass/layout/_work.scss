@@ -1,0 +1,34 @@
+.action__section {
+    padding-top: 47px;
+    padding-bottom: 94px;
+    @media screen and(max-width: 1199px) {
+      display: none;
+      
+    }
+  }
+  .action {
+    display: flex;
+  }
+  .action__item {
+    position: relative;
+  }
+  .action__item + .action__item {
+    margin-left: 30px;
+  }
+  /* текст над картинкой */
+  .action__description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(47, 48, 58, 0.8);
+    color: var(--contrast-text-color);
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.14;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: 0;
+  }

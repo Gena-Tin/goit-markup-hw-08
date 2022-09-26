@@ -1,0 +1,24 @@
+.site-logo {
+    display: inline-block;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .accent-color {
+    color: var(--accent-color);
+  }
+  .footer-logo {
+    margin-bottom: 20px;
+    @media screen and (min-width: 0px)and(max-width:1199px){
+      display: flex;
+      justify-content: center;
+    }
+    
+  }
+  .header-logo{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
