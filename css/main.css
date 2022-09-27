@@ -206,6 +206,16 @@ a {
   margin-bottom: 28px;
 }
 
+.modal-form-policy-field {
+  font-size: 12px;
+  color: var(--submain-font-color);
+}
+@media screen and (min-width: 1200px) {
+  .modal-form-policy-field {
+    font-size: 14px;
+  }
+}
+
 .modal-form-input-title {
   position: absolute;
   top: 0;
