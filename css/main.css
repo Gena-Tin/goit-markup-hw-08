@@ -149,11 +149,17 @@ a {
 .modal-window {
   position: relative;
   padding: 40px;
-  max-width: 528px;
-  min-height: 581px;
+  width: 450px;
+  min-height: 609px;
   margin: auto;
   border-radius: 4px;
   background-color: var(--body-background-color);
+}
+@media screen and (min-width: 1200px) {
+  .modal-window {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal-window-close-btn {
@@ -313,7 +319,7 @@ a {
 
 .modal-form-agreement-label {
   position: relative;
-  padding-left: 23px;
+  padding-left: 20px;
 }
 
 .modal-form-license-agreement-link {
