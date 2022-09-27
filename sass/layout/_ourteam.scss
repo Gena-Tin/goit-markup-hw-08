@@ -49,7 +49,7 @@
 
 
   .team-list__item {
-      width: 460px;
+      max-width: 460px;
 
     @media screen and(min-width: 768px){
       width: 354px;
