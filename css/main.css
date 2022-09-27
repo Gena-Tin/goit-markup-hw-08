@@ -970,14 +970,20 @@ a {
 .hero {
   background-color: var(--contrast-sections-color);
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .overlay {
   margin: 0 auto;
-  max-width: 1600px;
-  height: 600px;
+  max-width: 480px;
+  height: 400px;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bcg-hero-img-mobile.jpg);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bcg-hero-img-mobile.jpg);
   background-repeat: no-repeat;
@@ -992,6 +998,8 @@ a {
 }
 @media screen and (min-width: 768px) {
   .overlay {
+    max-width: 768px;
+    height: 400px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/bcg-hero-img-tablet.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bcg-hero-img-tablet.jpg");
   }
@@ -1021,13 +1029,19 @@ a {
 
 .hero-title {
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
+  max-width: 360px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--contrast-text-color);
   margin: 0 auto;
-  max-width: 696px;
+}
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    max-width: 696px;
+  }
 }
 
 .order-button {
