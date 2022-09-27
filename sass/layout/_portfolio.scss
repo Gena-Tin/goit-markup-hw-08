@@ -7,13 +7,16 @@
     display: flex;
     flex-wrap: wrap;
 
-    // gap: 30px;
        &__item{
         width: 450px;
        }
 
        &__item:not(:last-child){
           margin-bottom: 30px;
+       }
+
+       &__img{
+        width: 100%;
        }
 
     @media screen and(min-width: 768px) and(max-width:1199px){
@@ -50,9 +53,7 @@
 
   }
 
-  // .project__item {
-  //   display: inline-block;
-  // }
+  
   .project__card {
     position: relative;
     overflow: hidden;
