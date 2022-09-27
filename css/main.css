@@ -1102,7 +1102,7 @@ a {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .benefits {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1127,8 +1127,15 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .benefits {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+  }
+  .benefits__item {
+    margin-bottom: 0;
   }
   .benefits__item:not(:last-child) {
     margin-right: 30px;
